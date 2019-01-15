@@ -11,7 +11,8 @@ import data.struct.calc.enums.OperatorEnum;
 /**
  * @author YMZ
  *
- * 根据enum的方式来进行栈操作,进行个位数的多运算
+ * 根据enum的方式来进行栈操作,进行多位实数的+ - * / % ()的运算
+ * eg: 2.1 * 20 - 3 * (3 + 2) + 4 / 2 - 3 % 2
  */
 
 public class StackOperate {
